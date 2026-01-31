@@ -58,15 +58,6 @@ The app will be available at `http://localhost:5173` (or the port shown in your 
 * `npm run preview` - Preview the production build locally
 * `npm run lint` - Run ESLint to check for code issues
 
-### Building for Production
-
-```bash
-npm run build
-```
-
-The production-ready files will be in the `dist/` directory.
-
----
 
 ## Approach
 
