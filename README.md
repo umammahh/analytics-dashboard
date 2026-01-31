@@ -246,9 +246,11 @@ Formatting logic is extracted into helpers:
 * Memoize chart components for large datasets
 * No global state manager (like Redux or Zustand) – manageable for this scale but may become complex with more charts.
 * Extract date utilities into a shared helper
-* Add skeleton loaders instead of harcoding Loading...
+* Add skeleton loaders instead of hardcoding Loading...
 * Introduce theme tokens for colors
 * Add unit tests for filtering logic
+* Use custom fonts - couldn't use Avante-Garde or Circular Pro due ot pricing and license issues
+* Better Refresh UI handling
 
 ---
 
