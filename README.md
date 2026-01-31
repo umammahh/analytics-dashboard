@@ -7,6 +7,7 @@ This project is a modular, responsive analytics dashboard built with **React + T
 The dashboard visualizes multiple metrics (bar charts, line charts, tables, and summary cards) with support for **time-based filtering**, **manual refresh**, and a **collapsible sidebar** layout.
 
 ---
+**Live Demo:** https://analytics-dashboard-task.netlify.app/
 
 ## Getting Started
 
