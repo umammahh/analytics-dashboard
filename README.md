@@ -9,6 +9,22 @@ The dashboard visualizes multiple metrics (bar charts, line charts, tables, and 
 ---
 **Live Demo:** https://analytics-dashboard-task.netlify.app/
 
+**Approximate time spent:** ~6 hours of focused development
+
+**Tech Stack**
+
+Frontend: React + TypeScript
+
+State Management: React hooks (custom hook useChartData)
+
+Styling: TailwindCSS
+
+Icons: react-icons (for refresh button)
+
+Charts: HighCharts and custom components (BarChart, LineChart)
+
+Data: Mock API (dashboard.api.ts)
+
 ## Getting Started
 
 ### Prerequisites
@@ -236,9 +252,8 @@ Formatting logic is extracted into helpers:
 
 ## What I’d Improve Next
 
-If this were taken further:
-
 * Memoize chart components for large datasets
+* No global state manager (like Redux or Zustand) – manageable for this scale but may become complex with more charts.
 * Extract date utilities into a shared helper
 * Add skeleton loaders instead of harcoding Loading...
 * Introduce theme tokens for colors
