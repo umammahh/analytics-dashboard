@@ -52,7 +52,7 @@ The production-ready files will be in the `dist/` directory.
 
 ---
 
-## High-Level Approach
+## Approach
 
 After reviewing the requirements, I started by **analyzing the design** rather than jumping straight into implementation. The goal was to treat the UI as a system of reusable building blocks instead of one-off components.
 
